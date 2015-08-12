@@ -1,0 +1,379 @@
+/* ==========================================================================
+   Global Overrides
+  ========================================================================== */
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+html {
+  font-size: 16px;
+}
+/* ==========================================================================
+   Author's custom styles
+  ========================================================================== */
+
+/* Global
+   ================================================================ */
+
+
+
+/* Layout
+   ================================================================ */
+#background_image {
+  background: url(../images/header_image.jpg);
+  background-size: cover;
+  max-height: 100%;
+  z-index: 10;
+  height: 685px;
+}
+#background_color {
+  background-color: rgba(81,190,193, 0.4);
+  z-index: 5;
+  height: 685px;
+}
+nav {
+height: 93px;
+}
+.logo {
+  float: left;
+  width: 20%;
+}
+ 
+nav li, nav ul {
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+/*  color: white;*/
+color: purple;
+}
+
+nav ul {
+  width: 80%;
+  text-align: right;
+  z-index: 15;
+}
+.title_section h1 {
+  clear: both;
+  z-index: 20;
+}
+hr {
+  position: absolute;
+  top: 2%;
+  left:0;
+  border: 1px solid white;
+  width: 100%;
+  z-index: 15;
+}
+
+/* Text Styles
+   ================================================================ */
+h1 {
+/*  font-family: 'Advent Pro', sans-serif;
+  font-weight: 700;*/
+/*  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin: 5% 5%;
+  width: 90%;
+  line-height: 4.5rem;
+}
+.shop {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
+/*  color: rgb(81,190,193);*/
+  color: white;
+  font-size: 1.3rem;
+}
+.shop a {
+  color: white;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  color: yellow;
+  font-size: 5rem;
+  line-height: 4.6rem;
+}
+/* Header
+   ================================================================ */
+
+/* Title Section
+   ================================================================ */
+.title_section {
+  padding: 6% 0;
+}
+ h1 {
+  text-align: center;
+  color: white;
+ }
+.shop {
+  width: 15%;
+  margin: 0 42.5% 3% 42.5%;
+  padding: 1.4%;
+  background: none;
+  border: 2px solid white;
+  -webkit-transition: all 600ms ease-in;
+  -o-transition: all 600ms ease-in;
+  transition: all 600ms ease-in;
+}
+.shop a {
+  -webkit-transition: all 600ms ease-in;
+  -o-transition: all 600ms ease-in;
+  transition: all 600ms ease-in;
+}
+nav li {
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  padding-right: 3%;
+  margin-top: 3%;
+}
+nav li:last-child {
+  padding-right: none;
+}
+
+/* Resume Section
+   ================================================================ */
+  .designs {
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.7rem;
+    width:20%;
+    padding-top: 2%;
+    margin: 0 40% 2% 40%;
+    border-bottom: 1px solid white;
+  }
+  .resume_section {
+    background-color: #5EC3C5;
+    height:650px;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+  }
+  .resume_images {
+    padding: 1% 0 1% 0;
+    clear: both;
+    width: 80%;
+    margin: 0 10%;
+  }
+  .resume_section img {
+    float: left;
+    width: 305px;
+    height: 400px;
+    margin-right:1.57%;
+    border: 1px solid rgba(125,125,125,0.5);
+    -webkit-box-shadow: 12px 14px 14px -6px rgba(0,0,0,0.2);
+   -moz-box-shadow: 12px 14px 14px -6px rgba(0,0,0,0.2);
+        box-shadow: 12px 14px 14px -6px rgba(0,0,0,0.2);
+
+  }
+  .resume_section img:first-child {
+    margin-left: 1.57%;
+  }
+  .resume_section p, .resume_section a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    clear:both;
+    text-transform: uppercase;
+    margin: 2% 0% 5%;
+  }
+
+  /* Video Section
+   ================================================================ */
+.video_section {
+  clear:both;
+  height:585px;
+}
+.video {
+  position: relative;
+  margin: 6% 10%;
+  overflow: hidden;
+  width: 80%;
+  height: 500px;
+}
+.video img {
+  width: 100%;
+}
+h3 {
+  position: absolute;
+  top: 11%;
+  left: 58%;
+}
+#play {
+  position: absolute;
+  top: 37.5%;
+  left: 37.5%;
+  width: 15%;
+}
+
+/* About Section
+   ================================================================ */
+.about_section {
+  background-color: #EBEBEB;
+  color: #333333;
+}
+.about_wrapper {
+  width: 90%;
+  margin: 0 5%;
+}
+.about_image {
+  float: left;
+  width: 30%;
+  margin: 6% 0;
+}
+#profile_pic {
+  width: 70%;
+  margin-left: 26%;
+}
+.about_text {
+  float:right;
+  width: 57%;
+  margin: 4% 3% 4% 5%;
+  color: #333333;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+#about_title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #5EC3C5;
+  border-bottom: 1px solid #5EC3C5;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
+}
+#about_name {
+  width: 25%;
+  padding-left: 51%;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2rem;
+  margin-top: 0;
+  color: #5EC3C5;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+#about_name_det {
+  color: gray;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  text-align: right;
+}
+
+
+/* Footer
+   ================================================================ */
+footer {
+  clear: both;
+  font-style: 'Lato', sans-serif;
+  font-weight: 300;
+  color: gray;
+  font-size: 0.8rem;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+footer p {
+  float: left;
+  width: 68.5%;
+  margin: 1% 0 1% 6.5%;
+}
+footer li  {
+  list-style: none;
+  display: inline-block;
+  text-align: right;
+  margin-right: 2%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  text-transform: uppercase;
+/*  font-style: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: gray;*/
+}
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+footer li:last-child {
+  margin-right: 6.5%;
+}
+
+/* Navigation
+   ================================================================ */
+nav {
+  border-bottom: 1px solid rgba(255,255,255, 0.3);
+}
+
+nav img {
+  height:77px;
+  width: 200px; 
+  margin: 3% 20%;
+}
+
+
+/*Animations ================================================================ */
+.shop:hover {
+  background-color: white;
+  border: 2px solid white;
+}
+.shop:hover a {
+  color: rgb(81,190,193);
+}
+
+nav li:hover {
+  cursor: pointer;
+}
+.logo:hover {
+  cursor:  pointer;
+}
+
+.resume_section a:hover, .resume_section p:hover {
+  cursor: pointer;
+}
+.scrolled {
+  /* Step 1: Add styles for fixed nav */
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  background-color: rgba(51,51,51,0.5);
+  width: 100%;
+  height: 70px;
+}
+.scrolled .logo>img {
+  width: 50%;
+  height: 50%;
+  margin-top: 3%;
+  margin-left: 30%;
+}
+.scrolled li {
+  margin-top: 1%;
+}
+
+
+
+
